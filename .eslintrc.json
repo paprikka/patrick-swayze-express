@@ -3,6 +3,9 @@
     "plugins": [
         "jest"
     ],
+    "globals": {
+      "spyOn": true
+    },
     "env": {
       "jest/globals": true
     },
