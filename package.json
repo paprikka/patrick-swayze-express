@@ -1,6 +1,6 @@
 {
   "name": "@sonnet.io/patrick-swayze-express",
-  "version": "0.1.2",
+  "version": "0.1.3-0",
   "description": "A tiny, reactive performance.getEntries() helper",
   "main": "dist/index.js",
   "scripts": {
