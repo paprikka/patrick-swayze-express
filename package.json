@@ -1,5 +1,5 @@
 {
-  "name": "patrick-swayze-express",
+  "name": "@sonnet.io/patrick-swayze-express",
   "version": "0.1.1",
   "description": "A tiny, reactive performance.getEntries() helper",
   "main": "index.js",
