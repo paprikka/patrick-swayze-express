@@ -1,6 +1,14 @@
 {
     "extends": "airbnb",
+    "plugins": [
+        "jest"
+    ],
+    "env": {
+      "jest/globals": true
+    },
     "rules": {
+      "semi": [ "error", "never" ],
+      "indent": ["error", 4],
       "default-case": 0,
       "object-curly-spacing": [
         "error",

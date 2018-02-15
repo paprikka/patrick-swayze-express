@@ -4,7 +4,9 @@
   "description": "A tiny, reactive performance.getEntries() helper",
   "main": "index.js",
   "scripts": {
-    "test": "npm t",
+    "test": "jest --config=jest.config.json",
+    "lint": "eslint ./src",
+    "tdd": "jest --watch --config=jest.config.json",
     "build": "webpack"
   },
   "repository": {
@@ -27,12 +29,17 @@
   "devDependencies": {
     "@babel/core": "^7.0.0-beta.40",
     "@babel/preset-env": "^7.0.0-beta.40",
-    "babel-loader": "^8.0.0-beta.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^22.2.2",
+    "babel-loader": "^7.1.2",
     "eslint": "^4.17.0",
     "eslint-config-airbnb": "^16.1.0",
     "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jest": "^21.12.1",
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-react": "^7.6.1",
+    "jest": "^22.3.0",
+    "regenerator-runtime": "^0.11.1",
     "uglifyjs-webpack-plugin": "^1.1.8",
     "webpack": "^3.11.0"
   }
