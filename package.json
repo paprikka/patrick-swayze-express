@@ -7,8 +7,12 @@
     "test": "jest --config=jest.config.json",
     "lint": "eslint ./src",
     "tdd": "jest --watch --config=jest.config.json",
-    "build": "webpack"
+    "build": "webpack",
+    "prepublish": "npm run lint && npm t && npm run build"
   },
+  "precommit": [
+    "lint", "test"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/paprikka/patrick-swayze-express.git"
@@ -43,6 +47,7 @@
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-react": "^7.6.1",
     "jest": "^22.3.0",
+    "pre-commit": "^1.2.2",
     "regenerator-runtime": "^0.11.1",
     "uglifyjs-webpack-plugin": "^1.1.8",
     "webpack": "^3.11.0"
