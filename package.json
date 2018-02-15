@@ -4,7 +4,8 @@
   "description": "A tiny, reactive performance.getEntries() helper",
   "main": "index.js",
   "scripts": {
-    "test": "npm t "
+    "test": "npm t",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -22,5 +23,13 @@
   "bugs": {
     "url": "https://github.com/paprikka/patrick-swayze-express/issues"
   },
-  "homepage": "https://github.com/paprikka/patrick-swayze-express#readme"
+  "homepage": "https://github.com/paprikka/patrick-swayze-express#readme",
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.40",
+    "@babel/preset-env": "^7.0.0-beta.40",
+    "babel-loader": "^8.0.0-beta.0",
+    "eslint": "^4.17.0",
+    "uglifyjs-webpack-plugin": "^1.1.8",
+    "webpack": "^3.11.0"
+  }
 }
