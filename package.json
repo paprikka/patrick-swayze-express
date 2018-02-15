@@ -1,0 +1,26 @@
+{
+  "name": "patrick-swayze-express",
+  "version": "0.0.1",
+  "description": "A tiny, reactive performance.getEntries() helper",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm t "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paprikka/patrick-swayze-express.git"
+  },
+  "keywords": [
+    "performance",
+    "browser",
+    "html",
+    "html5",
+    "frp"
+  ],
+  "author": "Rafal Pastuszak <rafal.pastuszak@gmail.com>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/paprikka/patrick-swayze-express/issues"
+  },
+  "homepage": "https://github.com/paprikka/patrick-swayze-express#readme"
+}
