@@ -31,5 +31,4 @@ module.exports = {
             },
         ],
     },
-    externals: /^rxjs\/*./i,
 }
